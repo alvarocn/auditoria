@@ -69,7 +69,8 @@
 	LOGON				   1017
 
 
-	!1.png!
+![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/1.png)
+
 
 	- Para desactivar la auditoría:
 
@@ -120,7 +121,8 @@
 	/
 
 
-	!2.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/2.png)
+
 
 **3. Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.**
 
@@ -208,7 +210,8 @@
 	---------------------------- --------
 	DELETE			     09/02/20
 
-	!12.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/12)
+
 
 **4.Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.**
 
@@ -224,7 +227,8 @@
 	END;
 	/
 
-	!7.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/7.png)
+
 
 
 	- Insertamos datos.
@@ -256,7 +260,8 @@
 	SQL> 
 
 
-	!9.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/9.png)
+
 
 	- Ejecutamos la siguiente consulta para mostrar los datos con las políticas realizadas.
 
@@ -307,7 +312,8 @@
 	SQL> 
 	
 
-	!10.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/10.png)
+
 
 **5.Explica la diferencia entre auditar una operación by access o by session.**
 
@@ -354,7 +360,8 @@
 		
 
 
-	!11.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/11.png)
+
 
 
 
@@ -571,7 +578,8 @@
 	MariaDB [auditorias]> 
 
 
-	!15.png!
+![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/15.png)
+
 
 
 **10. Averigua las posibilidades que ofrece MongoDB para auditar los cambios que va sufriendo un documento.**
