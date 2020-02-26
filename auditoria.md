@@ -5,7 +5,7 @@
 SQL> SHOW PARAMETER AUDIT
 
 NAME				     TYPE	 VALUE
- ------------------------------------ ----------- ------------------------------
+**------------------------------------ ----------- ------------------------------**
 audit_file_dest 		     string	 /opt/oracle/admin/orcl/adump
 audit_syslog_level		     string
 audit_sys_operations		     boolean	 TRUE
