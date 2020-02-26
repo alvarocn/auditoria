@@ -2,16 +2,16 @@
 
 - Los parámetros de auditoria en oracle son los siguientes:
 
-SQL> SHOW PARAMETER AUDIT
+	SQL> SHOW PARAMETER AUDIT
 
-NAME				     TYPE	 VALUE
-**------------------------------------ ----------- ------------------------------**
-audit_file_dest 		     string	 /opt/oracle/admin/orcl/adump
-audit_syslog_level		     string
-audit_sys_operations		     boolean	 TRUE
-audit_trail			     string	 DB
-unified_audit_sga_queue_size	     integer	 1048576
-SQL> 
+	NAME				     TYPE	 VALUE
+	------------------------------------ ----------- ------------------------------
+	audit_file_dest 		     string	 /opt/oracle/admin/orcl/adump
+	audit_syslog_level		     string
+	audit_sys_operations		     boolean	 TRUE
+	audit_trail			     string	 DB
+	unified_audit_sga_queue_size	     integer	 1048576
+	SQL> 
 
 - Para activar auditoria que compruebe los intentos fallidos al acceder al sistema:
 
