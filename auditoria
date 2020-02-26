@@ -1,5 +1,3 @@
-SHOW PARAMETER AUDIT
-
 **1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento.**
 
 - Los parámetros de auditoria en oracle son los siguientes:
