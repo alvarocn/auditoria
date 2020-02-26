@@ -121,7 +121,7 @@
 	/
 
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/2.png)
+![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/2.png)
 
 
 **3. Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.**
@@ -210,7 +210,7 @@
 	---------------------------- --------
 	DELETE			     09/02/20
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/12)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/12.png)
 
 
 **4.Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.**
@@ -227,7 +227,7 @@
 	END;
 	/
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/7.png)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/7.png)
 
 
 
@@ -260,7 +260,7 @@
 	SQL> 
 
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/9.png)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/9.png)
 
 
 	- Ejecutamos la siguiente consulta para mostrar los datos con las políticas realizadas.
@@ -312,7 +312,7 @@
 	SQL> 
 	
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/10.png)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/10.png)
 
 
 **5.Explica la diferencia entre auditar una operación by access o by session.**
@@ -322,7 +322,7 @@
 
 	"AUDIT INSERT TABLE, UPDATE TABLE, DELETE TABLE BY SYSTEM BY SESSION;"
 
-	En la actividad 3 ya mostramos tanto "by access" como "by session" ya que activamos ambas, a continuación mostraremos 	solamente "by session" ya que "by access" la hemos desactivado.
+	A continuación mostraremos  "by session" ya que "by access" la hemos desactivado.
 
 
 
@@ -360,7 +360,7 @@
 		
 
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/11.png)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/11.png)
 
 
 
@@ -578,7 +578,7 @@
 	MariaDB [auditorias]> 
 
 
-![](![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/15.png)
+(![](https://github.com/alvarocn/auditoria/blob/master/imagenes/auditoria/15.png)
 
 
 
