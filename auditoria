@@ -1,6 +1,6 @@
 SHOW PARAMETER AUDIT
 
-1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento. 
+**1. Activa desde SQL*Plus la auditoría de los intentos de acceso fallidos al sistema. Comprueba su funcionamiento.**
 
 - Los parámetros de auditoria en oracle son los siguientes:
 
@@ -80,7 +80,7 @@ NOAUDIT CREATE SESSION WHENEVER NOT SUCCESSFUL;
 
 
 
-2. Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible
+**2. Realiza un procedimiento en PL/SQL que te muestre los accesos fallidos junto con el motivo de los mismos, transformando el código de error almacenado en un mensaje de texto comprensible.**
 
 create or replace procedure falloAcceso
 is
@@ -124,7 +124,7 @@ end ;
 
 !2.png!
 
-
+**3. Activa la auditoría de las operaciones DML realizadas por SCOTT. Comprueba su funcionamiento.**
 
 - Para activar la auditoria DML  realizadas por scott, ejercutamos lo siguiente.
 
@@ -212,11 +212,9 @@ DELETE			     09/02/20
 
 !12.png!
 
-
+**4.Realiza una auditoría de grano fino para almacenar información sobre la inserción de empleados del departamento 10 en la tabla emp de scott.**
 
 - Creamos auditoría de grano fino.
-
-
 
 BEGIN
     DBMS_FGA.ADD_POLICY (
@@ -313,6 +311,8 @@ SQL>
 
 !10.png!
 
+**5.Explica la diferencia entre auditar una operación by access o by session.**
+
 - El comando "audit" incorpora un parámetro "by session" el registro de auditoría se escribirá una única vez por sesión y "by access"  realiza un registro por cada sentencia auditada.
 Para activar "by session" sería asi;
 
@@ -360,7 +360,7 @@ SCOTT
 
 
 
-
+**6.Documenta las diferencias entre los valores db y db, extended del parámetro audit_trail de ORACLE. Demuéstralas poniendo un ejemplo de la información sobre una operación concreta recopilada con cada uno de ellos.**
 
 
 - db: activa la auditoría y los datos se almacenarán en la taba SYS.AUD$ de Oracle.
